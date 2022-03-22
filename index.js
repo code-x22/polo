@@ -533,7 +533,7 @@ but = [
 sendButLoc(from, sw, sw2, sg, but)
 break
 case 'menu':
-yu = fs.readFileSync('./vn.mp33')
+yu = fs.readFileSync('./vn.mp3')
 var bb = 1
 const hky = speed();
 const hby = speed() - hky
