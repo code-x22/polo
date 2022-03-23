@@ -533,7 +533,7 @@ but = [
 sendButLoc(from, sw, sw2, sg, but)
 break
 case 'menu':
-yu = fs.readFileSync('./vn.mp3')
+yu = fs.readFileSync('./tiktok.mp3')
 var bb = 1
 const hky = speed();
 const hby = speed() - hky
