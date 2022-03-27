@@ -525,10 +525,10 @@ sw =`┏━━━━━━━━━━━━━━⬣
 ┃Cp : Wa.me/${owner}
 ┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 
-_Bukan Bot_ *_Wibusoft_*👍🏻`
+_Bukan Bot_ *_Wibusoft_*`
 sw2 =`${time}`
 but = [
-{ buttonId: `#yg`, buttonText: { displayText: '️Oke Kak🗿' }, type: 1 }
+{ buttonId: `#yg`, buttonText: { displayText: '️WOKEE🗿' }, type: 1 }
 ]
 sendButLoc(from, sw, sw2, sg, but)
 break
@@ -538,40 +538,40 @@ var bb = 1
 const hky = speed();
 const hby = speed() - hky
 const { wa_version, mcc, mnc, os_version, device_manufacturer, device_model } = Lexxy.user.phone
-st =`╭───❒ ♛ 𝙐𝙨𝙚𝙧 𝙄𝙣𝙛𝙤 ♛
+st =`╭───❒ ×͜× 𝙐𝙨𝙚𝙧 𝙄𝙣𝙛𝙤 ×͜×
 ❒ 𝗡𝗔𝗠𝗘 : *${pushname}*
 ❒ 𝗧𝗔𝗚 : *@${sender.split("@")[0]}*
-❒ 𝗦𝗧𝗔𝗧𝗨𝗦 : *${isOwner? "Owner 👑️":"User ⚔️"}*
-❒ 𝗣𝗥𝗘𝗠𝗜𝗨𝗠 : *${isPremier? "Aktif ✔":"Tidak ✘"}* 
+❒ 𝗦𝗧𝗔𝗧𝗨𝗦 : *${isOwner? "Owner ☺️":"User ×͜×"}*
+❒ 𝗣𝗥𝗘𝗠𝗜𝗨𝗠 : *${isPremier? "Aktif 👾":"Tidak 💢"}* 
 ╰─────────────────
 
-╭──❒ ♛ 𝐈𝐍𝐅𝐎 𝐁𝐎𝐓 ♛
-❒ 𝙉𝘼𝙈𝙀 : *${botName}*
-❒ 𝙊𝙒𝙉𝙀𝙍 : *${ownerName}*
-❒ 𝘼𝙐𝙏𝙃𝙊𝙍 : *CODE - X*
-❒ 𝗣𝗥𝗘𝗙𝗜𝗫 : *Multi Prefix*
-❒ 𝗟𝗜𝗕 : *Baileys*
-❒ 𝙏𝙔𝙋𝙀 : *NodeJS*
-❒ 𝙈𝙊𝘿𝙀 : *${isPublic? "Public":"Self"}*
-❒ 𝙍𝘼𝙈 : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
-❒ 𝙑𝙀𝙍𝙎𝙄 𝙊𝙎 : *${os_version}*
-❒ 𝙑𝙀𝙍𝙎𝙄 𝙃𝙋 : *${device_model}*
-❒ 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 : *${wa_version}*
-❒ 𝙋𝙀𝙉𝙂𝙂𝙐𝙉𝘼 : *( ${pendaftar.length} )*
-❒ 𝙎𝙋𝙀𝙀𝘿 : *${hby.toFixed(4)}* 𝘚𝘦𝘤𝘰𝘯𝘥
-❒ 𝘾𝙃𝘼𝙏 𝙂𝙍𝙐𝙋 : *( ${groups.length} )*
-❒ 𝗖𝗛𝗔𝗧 𝗣𝗥𝗜𝗩𝗔𝗧𝗘 : *( ${privat.length} )*
-❒ 𝗖𝗛𝗔𝗧 𝗧𝗢𝗧𝗔𝗟 : *( ${totalChat.length} )*
+╭── メ 𝐈𝐍𝐅𝐎 𝐁𝐎𝐓 メ
+✰ 𝙉𝘼𝙈𝙀 : *${botName}*
+✰ 𝙊𝙒𝙉𝙀𝙍 : *${ownerName}*
+✰ 𝘼𝙐𝙏𝙃𝙊𝙍 : *CODE-X*
+✰ 𝗣𝗥𝗘𝗙𝗜𝗫 : *Multi Prefix*
+✰ 𝗟𝗜𝗕 : *Baileys*
+✰ 𝙏𝙔𝙋𝙀 : *NodeJS*
+✰ 𝙈𝙊𝘿𝙀 : *${isPublic? "Public":"Self"}*
+✰ 𝙍𝘼𝙈 : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
+✰ 𝙑𝙀𝙍𝙎𝙄 𝙊𝙎 : *${os_version}*
+✰ 𝙑𝙀𝙍𝙎𝙄 𝙃𝙋 : *${device_model}*
+✰ 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 : *${wa_version}*
+✰ 𝙋𝙀𝙉𝙂𝙂𝙐𝙉𝘼 : *( ${pendaftar.length} )*
+✰ 𝙎𝙋𝙀𝙀𝘿 : *${hby.toFixed(4)}* 𝘚𝘦𝘤𝘰𝘯𝘥
+✰ 𝘾𝙃𝘼𝙏 𝙂𝙍𝙐𝙋 : *( ${groups.length} )*
+✰ 𝗖𝗛𝗔𝗧 𝗣𝗥𝗜𝗩𝗔𝗧𝗘 : *( ${privat.length} )*
+✰ 𝗖𝗛𝗔𝗧 𝗧𝗢𝗧𝗔𝗟 : *( ${totalChat.length} )*
 ╰─────────────────
 
 ────────────────
  *֍SEWA BOT CHAT֍*
-❒ *http://wa.me/6282230397507?text=sewabot*
+*http://wa.me/6282230397507?text=sewabot*
  ────────────────
  
  
 ────────────────
-   ֍ *LIST MENU* ֍
+   メ *LIST MENU* メ
 ────────────────`
 st2 =`➢ 𝙊𝙩𝙝𝙚𝙧𝙨 𝙈𝙚𝙣𝙪
 ${bb++}.${simbol} #store
@@ -1072,15 +1072,15 @@ ${bb++}.${simbol} #sound23
 ${bb++}.${simbol} #sound24
 ${bb++}.${simbol} #sound25`
 but = [
-{ buttonId: `${prefix}scbot`, buttonText: { displayText: 'SEWA🎟️' }, type: 1 },
+{ buttonId: `${prefix}scbot`, buttonText: { displayText: '𝗦𝗘𝗪𝗔🎟️' }, type: 1 },
 { buttonId: `${prefix}owner`, buttonText: { displayText: '️𝙊𝙬𝙣𝙚𝙧 𝘽𝙤𝙩🤖️' }, type: 1 },
-{ buttonId: `${prefix}store`, buttonText: { displayText: '️𝙎𝙩𝙤𝙧𝙚 𝙈𝙚𝙣𝙪🛒' }, type: 1 }
+{ buttonId: `${prefix}store`, buttonText: { displayText: '️𝘽𝙊𝙏 𝙉𝙔𝘼 𝙂𝙂☺️' }, type: 1 }
 ]
 sendButLoc(from, st, st2, img1, but)
 Lexxy.sendMessage(from, yu, audio, { mimetype: 'audio/mp4', ptt:true })
 break
 case 'scbot':
-reply('SEWA CHAT OWNER')
+reply('SEWA CHAT wa.me/6282230397507')
 break
 case 'runtime':
 uptime = process.uptime();
