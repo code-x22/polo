@@ -539,29 +539,29 @@ const hky = speed();
 const hby = speed() - hky
 const { wa_version, mcc, mnc, os_version, device_manufacturer, device_model } = Lexxy.user.phone
 st =`╭───❒ ♛ 𝙐𝙨𝙚𝙧 𝙄𝙣𝙛𝙤 ♛
-❒ 𝐍𝐚𝐦𝐞 : *${pushname}*
-❒ 𝐓𝐚𝐠 : *@${sender.split("@")[0]}*
-❒ 𝐒𝐭𝐚𝐭𝐮𝐬 : *${isOwner? "Owner 👑️":"User ⚔️"}*
-❒ 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 : *${isPremier? "Aktif ✔":"Tidak ✘"}* 
+❒ 𝗡𝗔𝗠𝗘 : *${pushname}*
+❒ 𝗧𝗔𝗚 : *@${sender.split("@")[0]}*
+❒ 𝗦𝗧𝗔𝗧𝗨𝗦 : *${isOwner? "Owner 👑️":"User ⚔️"}*
+❒ 𝗣𝗥𝗘𝗠𝗜𝗨𝗠 : *${isPremier? "Aktif ✔":"Tidak ✘"}* 
 ╰─────────────────
 
-╭──❒ ♛ 𝙄𝙉𝙁𝙊 𝘽𝙊𝙏 ♛
-❒ 𝐍𝐚𝐦𝐞 : *${botName}*
-❒ 𝐎𝐰𝐧𝐞𝐫 : *${ownerName}*
-❒ 𝐀𝐮𝐭𝐡𝐨𝐫 : *CODE - X*
-❒ 𝐏𝐫𝐞𝐟𝐢𝐱 : *Multi Prefix*
-❒ 𝐋𝐢𝐛 : *Baileys*
-❒ 𝐓𝐲𝐩𝐞 : *NodeJS*
-❒ 𝐌𝐨𝐝𝐞 : *${isPublic? "Public":"Self"}*
-❒ 𝐑𝐚𝐦 : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
-❒ 𝐕𝐞𝐫𝐬𝐢 𝐎𝐒 : *${os_version}*
-❒ 𝐕𝐞𝐫𝐬𝐢 𝐇𝐏 : *${device_model}*
-❒ 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 : *${wa_version}*
-❒ 𝐏𝐞𝐧𝐠𝐠𝐮𝐧𝐚 : *( ${pendaftar.length} )*
-❒ 𝐒𝐩𝐞𝐞𝐝 : *${hby.toFixed(4)}* 𝘚𝘦𝘤𝘰𝘯𝘥
-❒ 𝘾𝙝𝙖𝙩 𝐆𝐫𝐨𝐮𝐩 : *( ${groups.length} )*
-❒ 𝘾𝙝𝙖𝙩 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 : *( ${privat.length} )*
-❒ 𝘾𝙝𝙖𝙩 𝐓𝐨𝐭𝐚𝐥 : *( ${totalChat.length} )*
+╭──❒ ♛ 𝐈𝐍𝐅𝐎 𝐁𝐎𝐓 ♛
+❒ 𝙉𝘼𝙈𝙀 : *${botName}*
+❒ 𝙊𝙒𝙉𝙀𝙍 : *${ownerName}*
+❒ 𝘼𝙐𝙏𝙃𝙊𝙍 : *CODE - X*
+❒ 𝗣𝗥𝗘𝗙𝗜𝗫 : *Multi Prefix*
+❒ 𝗟𝗜𝗕 : *Baileys*
+❒ 𝙏𝙔𝙋𝙀 : *NodeJS*
+❒ 𝙈𝙊𝘿𝙀 : *${isPublic? "Public":"Self"}*
+❒ 𝙍𝘼𝙈 : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
+❒ 𝙑𝙀𝙍𝙎𝙄 𝙊𝙎 : *${os_version}*
+❒ 𝙑𝙀𝙍𝙎𝙄 𝙃𝙋 : *${device_model}*
+❒ 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 : *${wa_version}*
+❒ 𝙋𝙀𝙉𝙂𝙂𝙐𝙉𝘼 : *( ${pendaftar.length} )*
+❒ 𝙎𝙋𝙀𝙀𝘿 : *${hby.toFixed(4)}* 𝘚𝘦𝘤𝘰𝘯𝘥
+❒ 𝘾𝙃𝘼𝙏 𝙂𝙍𝙐𝙋 : *( ${groups.length} )*
+❒ 𝗖𝗛𝗔𝗧 𝗣𝗥𝗜𝗩𝗔𝗧𝗘 : *( ${privat.length} )*
+❒ 𝗖𝗛𝗔𝗧 𝗧𝗢𝗧𝗔𝗟 : *( ${totalChat.length} )*
 ╰─────────────────
 
 ────────────────
